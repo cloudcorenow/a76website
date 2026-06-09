@@ -104,15 +104,25 @@ export default function AboutPage({ onNavigate }: AboutPageProps) {
           <div className="section-tag" style={{ color: 'var(--cream)' }}>Our People</div>
           <h2 className="section-title light">Owner-Led. <em>Family-Operated.</em></h2>
           <p className="section-sub light">Allegiance 76 is led by the owner and supported by a dedicated install team who share the same values and hold the same standards on every single job. No subcontractors. No revolving crews. Just people who take pride in their work.</p>
-          <div className="team-grid" style={{ gridTemplateColumns: 'repeat(3, 1fr)' }}>
+          <div className="team-grid" style={{ gridTemplateColumns: 'repeat(4, 1fr)' }}>
             <div className="team-card">
               <div className="team-avatar">
                 <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="7" r="4"/><path d="M4 21v-2a6 6 0 0112 0v2"/></svg>
               </div>
               <div className="team-info">
                 <div className="team-name">Owner &amp; Operator</div>
-                <div className="team-role">Founder · Lead Technician</div>
+                <div className="team-role">Founder · General Manager</div>
                 <div className="team-bio">Every job is personal. As owner and working technician, I&apos;m directly involved in the work — because putting my name on it means I have to stand behind it.</div>
+              </div>
+            </div>
+            <div className="team-card">
+              <div className="team-avatar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="10" cy="7" r="4"/><path d="M22 11h-4"/><path d="M20 9v4"/></svg>
+              </div>
+              <div className="team-info">
+                <div className="team-name">Project Manager</div>
+                <div className="team-role">Operations · Customer Liaison</div>
+                <div className="team-bio">Coordinates every project from start to finish — scheduling, communication, and quality control — so nothing falls through the cracks.</div>
               </div>
             </div>
             <div className="team-card">
