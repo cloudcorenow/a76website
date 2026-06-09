@@ -39,8 +39,8 @@ export default function HomePage({ onNavigate }: HomePageProps) {
                 <div className="label">Years in Service</div>
               </div>
               <div className="hero-stat fade-up fade-up-2">
-                <div className="num">3<span>K+</span></div>
-                <div className="label">5-Star Reviews</div>
+                <div className="num">5<span>-Star</span></div>
+                <div className="label">Rated Company</div>
               </div>
               <div className="hero-stat fade-up fade-up-3">
                 <div className="num">100<span>%</span></div>
@@ -188,7 +188,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
             {[
               { num: '12', sup: 'K+', label: 'Systems Installed' },
               { num: '20', sup: '+', label: 'Years in Business' },
-              { num: '3', sup: 'K+', label: '5-Star Reviews' },
+              { num: '5', sup: '-Star', label: 'Rated Company' },
               { num: '24', sup: '/7', label: 'Emergency Response' },
             ].map(({ num, sup, label }) => (
               <div className="trust-item" key={label}>
