@@ -22,7 +22,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
         <div className="hero-stripes"></div>
         <div className="hero-content">
           <div className="hero-text">
-            <div className="hero-badge fade-up fade-up-1">Trusted Since 2006 · Proudly American</div>
+            <div className="hero-badge fade-up fade-up-1">Trusted Since 2006 · We answer to families, not investors.</div>
             <h1 className="hero-title fade-up fade-up-2">
               Comfort<br />Built on<br /><em>American</em><br />Values
             </h1>
