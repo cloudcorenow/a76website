@@ -186,7 +186,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
           <h2 className="section-title light">Allegiance 76 <em>At a Glance</em></h2>
           <div className="trust-grid">
             {[
-              { num: '12', sup: 'K+', label: 'Systems Installed' },
+              { num: '100', sup: '%', label: 'Client Satisfaction' },
               { num: '20', sup: '+', label: 'Years in Business' },
               { num: '5', sup: '-Star', label: 'Rated Company' },
               { num: '24', sup: '/7', label: 'Emergency Response' },
