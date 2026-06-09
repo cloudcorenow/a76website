@@ -44,9 +44,9 @@ export default function ServicesPage({ onNavigate }: ServicesPageProps) {
     },
     {
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"><path d="M6 22V4a2 2 0 012-2h8a2 2 0 012 2v18z"/><path d="M6 12H4a2 2 0 00-2 2v6a2 2 0 002 2h2"/><path d="M18 9h2a2 2 0 012 2v9a2 2 0 01-2 2h-2"/><line x1="10" y1="6" x2="10" y2="6"/><line x1="14" y1="6" x2="14" y2="6"/><line x1="10" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="14" y2="10"/><line x1="10" y1="14" x2="10" y2="14"/><line x1="14" y1="14" x2="14" y2="14"/></svg>,
-      title: 'Commercial & Industrial HVAC',
-      desc: 'We handle large-scale commercial installs from office buildings and retail centers to warehouses and manufacturing facilities. Our project teams manage design-build, commissioning, and ongoing service contracts.',
-      features: ['Design-Build', 'Commissioning', 'Service Contracts', 'Chiller Systems', 'Industrial Controls'],
+      title: 'Residential & Commercial HVAC',
+      desc: 'We handle projects of every size — from single-family homes to office buildings and retail centers. Our team manages design-build, commissioning, and ongoing service contracts for both residential and commercial clients.',
+      features: ['Design-Build', 'Commissioning', 'Service Contracts', 'Residential Installs', 'Commercial Systems'],
     },
     {
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>,
