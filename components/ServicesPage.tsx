@@ -152,7 +152,7 @@ export default function ServicesPage({ onNavigate }: ServicesPageProps) {
                     <div className="plan-price">$419</div>
                     <div className="plan-price-suffix">/ year · one-time annual payment</div>
                   </div>
-                  <div className="plan-add-sys"><strong>$359</strong> per additional system</div>
+                  <div className="plan-add-sys"><strong>$379</strong> per additional system</div>
                 </div>
                 <div className="plan-body">
                   <div className="plan-section-label">What's Included</div>
